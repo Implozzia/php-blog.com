@@ -7,16 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" href="img/fav.png">
+    <link rel="stylesheet" href="css/main.css">
     <title>PHP-BLOG</title>
 </head>
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal">PHP Blog</h5>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <!--<a class="p-2 text-dark" href="#">Features</a>-->
-        </nav>
-        <a class="btn btn-outline-primary mr-3 " href="#">Sign Up</a>
-        <a class="btn btn-outline-primary" href="#">Registration</a>
-    </div>
+    <?php
+        require 'blocks/header.php';
+    ?>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                Main
+            </div>
+            <?php
+                require 'blocks/aside.php';
+            ?>
+        </div>
+    </main>
+    <?php
+        require 'blocks/footer.php';
+    ?>
 </body>
 </html>
