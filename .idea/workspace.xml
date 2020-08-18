@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4625d625-ea6f-4b9b-98f5-9c35bd16ae3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/aside.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reg/reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597242861941</updated>
-      <workItem from="1597242863012" duration="3928000" />
+      <workItem from="1597242863012" duration="6492000" />
+      <workItem from="1597416854522" duration="1037000" />
+      <workItem from="1597674891308" duration="8447000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1597244965794</created>
@@ -64,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597244965794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added require php">
+      <created>1597247001555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597247001555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,36 +80,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="added require php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added require php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="957" y="381" key="#Options" timestamp="1597244508128">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="957" y="381" key="#Options/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244508128" />
-    <state x="887" y="277" key="CommitChangelistDialog2" timestamp="1597244964696">
+    <state x="887" y="277" key="CommitChangelistDialog2" timestamp="1597247000602">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="887" y="277" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244964696" />
-    <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1597244937005">
+    <state x="887" y="277" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597247000602" />
+    <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1597674887641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244937005" />
+    <state x="1060" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597674887641" />
+    <state x="3355" y="328" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1597327838161" />
     <state x="1147" y="598" key="Github.ShareDialog" timestamp="1597244744868">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1147" y="598" key="Github.ShareDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244744868" />
-    <state x="1115" y="623" key="NewPhpFileDialog" timestamp="1597246547698">
+    <state x="1115" y="623" key="NewPhpFileDialog" timestamp="1597677359475">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1115" y="623" key="NewPhpFileDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597246547698" />
+    <state x="1115" y="623" key="NewPhpFileDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597677359475" />
     <state x="778" y="272" key="SettingsEditor" timestamp="1597245210442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="778" y="272" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597245210442" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1597244985998">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1597247003199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244985998" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597247003199" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1597675587586">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597675587586" />
   </component>
 </project>
