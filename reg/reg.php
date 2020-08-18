@@ -3,12 +3,21 @@
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     $pass = filter_var($_POST['pass'], FILTER_SANITIZE_STRING);
 
-    if(strlen($username) <= 3)
+    $error = '';
+    if(strlen($username) <= 3) {
+        $error = 'Enter your name';
+    }
+    else if(strlen($email) <= 3) {
+        $error = 'Enter your email';
+    }
+    else if (strlen($pass) <= 3) {
+        $error = 'Enter your password';
+    }
+
+    if($error != '') {
+        echo $error;
         exit();
-    else if(strlen($email) <= 3)
-        exit();
-    else if (strlen($pass) <= 3)
-        exit();
+    }
 
     $hash = "wecvkyukoljegiewjgjyj";
     $pass = md5($pass . $hash);
@@ -23,3 +32,5 @@
     $sql = 'INSERT INTO users(name, email, pass) VALUES(?, ?, ?)';
     $query = $pdo->prepare($sql);
     $query->execute([$username, $email, $pass]);
+
+    echo 'Success';
