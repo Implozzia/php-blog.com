@@ -9,4 +9,4 @@ AddDefaultCharset UTF-8
 ErrorDocument 404 /error.php
 ErrorDocument 400 /error.php
 
-# RewriteRule ^reg?$ reg.php [NC, L]
+# RewriteRule ^ajax?$ ajax.php [NC, L]

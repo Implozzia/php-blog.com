@@ -3,6 +3,16 @@
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="/">Main Page</a>
     </nav>
-    <a class="btn btn-outline-primary mr-3 " href="#">Sign Up</a>
+    <?php
+        if($_COOKIE['log'] == ''):
+    ?>
+    <a class="btn btn-outline-primary mr-3 " href="/auth.php">Sign Up</a>
     <a class="btn btn-outline-primary" href="/reg.php">Registration</a>
+    <?php
+        else:
+    ?>
+    <a class="btn btn-outline-primary" href="/auth.php">Profile</a>
+    <?php
+        endif;
+    ?>
 </div>
