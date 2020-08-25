@@ -14,6 +14,7 @@
         <div class="row">
             <div class="col-md-8">
                 Main
+                <img src="img/ragdoll.png" alt="">
             </div>
     <?php
         require 'blocks/aside.php';

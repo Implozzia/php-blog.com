@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4625d625-ea6f-4b9b-98f5-9c35bd16ae3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/exit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/add_article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ragdoll.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg.php" beforeDir="false" afterPath="$PROJECT_DIR$/reg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg/reg.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <workItem from="1597242863012" duration="6492000" />
       <workItem from="1597416854522" duration="1037000" />
       <workItem from="1597674891308" duration="11645000" />
-      <workItem from="1598257754917" duration="3548000" />
+      <workItem from="1598257754917" duration="8954000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1597244965794</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597759619722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added login page and exit btn">
+      <created>1598276406386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598276406386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,17 +96,18 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added require php" />
     <MESSAGE value="Added connect to db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added connect to db" />
+    <MESSAGE value="Added login page and exit btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added login page and exit btn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="957" y="381" key="#Options" timestamp="1597244508128">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="957" y="381" key="#Options/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244508128" />
-    <state x="887" y="277" key="CommitChangelistDialog2" timestamp="1597759618765">
+    <state x="887" y="277" key="CommitChangelistDialog2" timestamp="1598276405053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="887" y="277" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597759618765" />
+    <state x="887" y="277" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598276405053" />
     <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1597674887641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -112,18 +117,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1147" y="598" key="Github.ShareDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597244744868" />
-    <state x="1115" y="623" key="NewPhpFileDialog" timestamp="1598275603549">
+    <state x="1115" y="623" key="NewPhpFileDialog" timestamp="1598360102245">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1115" y="623" key="NewPhpFileDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598275603549" />
+    <state x="1115" y="623" key="NewPhpFileDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598360102245" />
     <state x="778" y="272" key="SettingsEditor" timestamp="1597245210442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="778" y="272" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597245210442" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1597759623134">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1598276408509">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597759623134" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1598276408509" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1597675587586">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
